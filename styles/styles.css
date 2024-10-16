@@ -59,30 +59,41 @@ td:empty {
     background-color: #8A3F7F; 
 }
 
+/* Estilos específicos de las asignaturas sin imágenes de fondo y ajuste de contraste */
 .DAW {
-    background-image: url('/horarioCSS/imagenes/DAW.png');
-    background-color: #8A3F7F; 
+    color: #000000; /* Texto negro */
+    background-color: rgba(253, 0, 236, 0.433); /* Fondo blanco semi-transparente */
 }
 
-.ANG {
-    background-image: url('/horarioCSS/imagenes/INGLES.png');
-    background-color: #8A3F7F; 
+.ANG { 
+    color: #000000; /* Texto negro */
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo blanco semi-transparente */
 }
 
 .EIE {
-    background-image: url('/horarioCSS/imagenes/EIE.png');
-    background-color: #8A3F7F; 
+    color: #FFFFFF; 
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo negro semi-transparente */
 }
 
-/* Enlaces no visitados */
+/* Enlaces sin diferenciar entre visitados y no visitados */
 a {
-    color: #8A3F7F; 
+    color: inherit;
     text-decoration: none;
 }
 
-/* Enlaces visitados */
 a:visited {
-    color: #CACACA;
+    color: black;
 }
 
+/* Ajustes adicionales para asegurar visibilidad de los enlaces en cada asignatura */
+.DAW a {
+    color: #000000; /* Enlaces en DAW en negro */
+}
 
+.ANG a {
+    color: #000000; /* Enlaces en INGLÉS en negro */
+}
+
+.EIE a {
+    color: #FFFFFF; /* Enlaces en EMPRESA en blanco */
+}
