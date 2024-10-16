@@ -1,0 +1,88 @@
+/* Fondo general y texto */
+body {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #FFFFFF; /* Fondo blanco */
+    color: #000000; /* Texto negro */
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #CACACA; /* Fondo gris claro */
+}
+
+td, th {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #000000; /* Bordes negros */
+    position: relative;
+}
+
+/* Estilo para las celdas vacías */
+td:empty {
+    background-color: #FFFFFF; /* Fondo blanco para las celdas vacías */
+}
+
+/* Estilo para las asignaturas */
+.module {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #FFFFFF; /* Texto blanco */
+}
+
+.module:hover {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+}
+
+/* Estilos específicos de las asignaturas con su imagen de fondo */
+.DWES {
+    background-image: url('/imagenes/DWES.png');
+    background-color: #8A3F7F; 
+}
+
+.DWEC {
+    background-image: url('/imagenes/DWEC.png');
+    background-color: #8A3F7F; 
+}
+
+.DIW {
+    background-image: url('/imagenes/DIW.png');
+    background-color: #8A3F7F; 
+}
+
+.DAW {
+    background-image: url('/horarioCSS/imagenes/DAW.png');
+    background-color: #8A3F7F; 
+}
+
+.ANG {
+    background-image: url('/horarioCSS/imagenes/INGLES.png');
+    background-color: #8A3F7F; 
+}
+
+.EIE {
+    background-image: url('/horarioCSS/imagenes/EIE.png');
+    background-color: #8A3F7F; 
+}
+
+/* Enlaces no visitados */
+a {
+    color: #8A3F7F; 
+    text-decoration: none;
+}
+
+/* Enlaces visitados */
+a:visited {
+    color: #CACACA;
+}
+
+
